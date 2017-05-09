@@ -3,3 +3,11 @@
   apt: name=logcheck state=present
   when: ansible_distribution == "Debian"
 
+- name: update logcheck.conf
+  template:
+    src: template/logcheck.conf.j2
+    dest: /etc/logcheck/logcheck.conf
+    owner: root
+    group: logcheck
+    mode: 0640
+
