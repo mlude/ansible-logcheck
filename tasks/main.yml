@@ -1,0 +1,5 @@
+---
+- name: ensure logcheck is installed
+  apt: name=logcheck state=present
+  when: ansible_distribution == "Debian"
+
