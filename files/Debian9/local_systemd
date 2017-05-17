@@ -1,2 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloaded The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloading The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+.service: Failed to set invocation ID on control group /system.slice/[-a-z]+.service, ignoring: Operation not permitted
