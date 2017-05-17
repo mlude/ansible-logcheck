@@ -3,3 +3,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: ntp_adjtime \(3\) failed: Operation not permitted
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: peer [.0-9]+ now invalid
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: peer [.0-9]+ now valid
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: reply from 129\.70\.132\.35: not synced \(alarm\), next query 3[0-9]+s
