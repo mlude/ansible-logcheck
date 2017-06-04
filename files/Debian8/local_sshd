@@ -1,18 +1,19 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted publickey for [a-z]+ from [.0-9]+ port [0-9]+ ssh2: ED25519 [:0-9a-f]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '' from 94.22.113.132 port [0-9]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '\\026\\003\\001\\001"\\001' from 118.193.31.182 port [0-9]+
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from 162.243.106.124: 11: Normal Shutdown\[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from 222.186.39.30: 11: disconnect \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from 74.208.158.11: 11: disconnected by user \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+: 11:  \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+: 11: Closed due to user request\. \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+: 11: Normal Shutdown, Thank you for playing \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+: 11: Normal Shutdown\[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+: 11: ok \[preauth\]
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 212.92.[.0-9]+: 13: User request \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 171.232.39.151: 3: java.net.SocketTimeoutException: Read timed out \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 212.92.[.0-9]+: 13: User request \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+: 3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+: 3: com.jcraft.jsch.JSchException: timeout in waiting for rekeying process\. \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Read from socket failed: Connection reset by peer \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no matching cipher found: client aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,twofish-cbc,arcfour server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no matching cipher found: client aes128-cbc,blowfish-cbc,3des-cbc server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no matching cipher found: client aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,arcfour128,arcfour,3des-cbc,none server aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com \[preauth\]
