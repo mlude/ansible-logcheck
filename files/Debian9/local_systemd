@@ -1,4 +1,6 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloaded The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloading The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+\.mount: Failed to set invocation ID on control group /system.slice/[-a-z]+\.mount, ignoring: Operation not permitted
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+\.slice: Failed to set invocation ID on control group /system.slice/[-a-z]+\.slice, ignoring: Operation not permitted
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: apt-daily.timer: Adding [0-9]+min [.0-9]+ms random time\.
