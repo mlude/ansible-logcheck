@@ -5,4 +5,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ansible-file: Invoked with directory_mode=None force=False remote_src=None path=[/._a-z]+ owner=root follow=False group=[a-z]+ unsafe_writes=None state=[Na-z]+ content=NOT_LOGGING_PARAMETER serole=None diff_peek=None setype=None (dest=[/._a-z]+ )?selevel=None original_basename=[._Na-z]+ regexp=None validate=None src=[._Na-z]+ seuser=None recurse=False delimiter=None mode=[0-9]+ attributes=None backup=None
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ansible-setup: Invoked with filter=\* gather_subset=\['!?all'\] fact_path=/etc/ansible/facts.d gather_timeout=10
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ansible-stat: Invoked with checksum_algorithm=sha1 get_checksum=True path=[/_.2a-z]+ checksum_algo=sha1 follow=False get_md5=False get_mime=True get_attributes=True
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ansible-systemd: Invoked with no_block=False name=[2a-z]+ enabled=True daemon_reload=False state=started user=False masked=None
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ansible-systemd: Invoked with no_block=False name=[2a-z]+ enabled=[NTa-z]+ daemon_reload=False state=[a-z]+ user=False masked=None
