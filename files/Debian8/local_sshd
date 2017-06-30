@@ -1,5 +1,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted publickey for [a-z]+ from [.0-9]+ port [0-9]+ ssh2: ED25519 [:0-9a-f]+
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '' from 94.22.113.132 port [0-9]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '' from [.0-9]+ port [0-9]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET / HTTP/1\.1' from 185.17.22.107 port [0-9]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET http://proxyjudge1\.proxyfire\.net/fastenv HTTP/1\.1' from 151.132.104.185 port [0-9]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '\\026\\003\\001\\001"\\001' from 118.193.31.182 port [0-9]+
