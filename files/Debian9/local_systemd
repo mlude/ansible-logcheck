@@ -1,3 +1,6 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Detected architecture x86-64\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Detected virtualization qemu\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reexecuting\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloaded The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloading The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted
