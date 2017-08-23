@@ -30,5 +30,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:3: com.jcraft.jsch.JSchException: timeout in waiting for rekeying process\. \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: invalid public DH value: <= 1 \[preauth\]
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 212.83.[.0-9]+ port [0-9]+: DH GEX group out of range \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 58.218.204.213 port [0-9]+: incomplete message \[preauth\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.0-9]+ port [0-9]+: DH GEX group out of range \[preauth\]
