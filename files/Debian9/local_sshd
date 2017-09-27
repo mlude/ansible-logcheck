@@ -7,7 +7,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([0-4a-z]+,ssh-connection\) -> \([0-4a-z]+,ssh-connection) \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([a-z]+,ssh-connection\) -> \([a-z]+,ssh-connect[a-z]* \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnecting: Too many authentication failures \[preauth\]
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Failed password for invalid user  0101 from 5.188.10.178 port [0-9]+ ssh2
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Failed password for invalid user  0101 from [.0-9]+ port [0-9]+ ssh2
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: PAM service\(sshd\) ignoring max retries; [4-6] > 3
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 103.89.88.84 port [0-9]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10+deb9u1 vs\. SSH-1\.5-NmapNSE_1\.0
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 201.217.211.58 port [0-9]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10 vs\. SSH-1\.5-Nmap-SSH1-Hostkey
