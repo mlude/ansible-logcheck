@@ -1,5 +1,6 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Detected architecture x86-64\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Detected virtualization qemu\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reached target Multi-User System\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reexecuting\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloaded The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloading The Apache HTTP Server\.
