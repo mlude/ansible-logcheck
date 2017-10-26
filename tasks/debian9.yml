@@ -9,6 +9,7 @@
   with_items:
     - { src: 'Debian9/local_ansible', dest: '/etc/logcheck/ignore.d.server/local_ansible' }
     - { src: 'Debian9/local_clamav', dest: '/etc/logcheck/ignore.d.server/local_clamav' }
+    - { src: 'Debian9/local_dbus', dest: '/etc/logcheck/ignore.d.server/local_dbus' }
     - { src: 'Debian9/local_liblogging-stdlog', dest: '/etc/logcheck/ignore.d.server/local_liblogging-stdlog' }
     - { src: 'Debian9/local_openntpd', dest: '/etc/logcheck/ignore.d.server/local_openntpd' }
     - { src: 'Debian9/local_sshd', dest: '/etc/logcheck/ignore.d.server/local_sshd' }
