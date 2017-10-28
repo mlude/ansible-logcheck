@@ -1,12 +1,17 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [a-z]+\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd: pam_unix\(systemd-user:session\): session closed for user [a-z]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd: pam_unix\(systemd-user:session\): session opened for user [a-z]+ by \(uid=0\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Created slice User Slice of [a-z]+\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Detected architecture x86-64\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Detected virtualization qemu\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reached target Multi-User System\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reexecuting\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloaded The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloading The Apache HTTP Server\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Removed slice User Slice of [a-z]+\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Started /etc/rc\.local Compatibility\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Startup finished in [.0-9]+s \(kernel\) \+ 2min [.0-9]+s \(userspace\) = 2min [.0-9]+s\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Startup finished in [0-9]+ms\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+\.mount: Failed to set invocation ID on control group /system.slice/[-a-z]+\.mount, ignoring: Operation not permitted
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+\.slice: Failed to set invocation ID on control group /[-/.a-z]+\.slice, ignoring: Operation not permitted
@@ -22,3 +27,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG network certificate management daemon\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \(kill\)\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Startup finished in [0-9]+ms\.
