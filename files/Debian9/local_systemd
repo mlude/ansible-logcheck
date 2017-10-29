@@ -11,7 +11,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Reloading The Apache HTTP Server\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Removed slice User Slice of [a-z]+\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Started /etc/rc\.local Compatibility\.
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Startup finished in [.0-9]+s \(kernel\) \+ 2min [.0-9]+s \(userspace\) = 2min [.0-9]+s\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Startup finished in [.0-9]+s \(kernel\) \+ [0-9]min [.0-9]+s \(userspace\) = [0-9]min [.0-9]+s\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+\.mount: Failed to set invocation ID on control group /system.slice/[-a-z]+\.mount, ignoring: Operation not permitted
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: [-a-z]+\.slice: Failed to set invocation ID on control group /[-/.a-z]+\.slice, ignoring: Operation not permitted
