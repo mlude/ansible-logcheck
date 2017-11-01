@@ -1,6 +1,9 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Downloading bytecode\.cvd \[100%\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Downloading daily\.cvd \[100%\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Downloading main\.cvd \[100%\]
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(bytecode\.cvd\): OK \(IMS\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(daily\.cvd\): OK \(IMS\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(main\.cvd\): OK \(IMS\)
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Trying again in 5 secs\.\.\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: bytecode\.cvd is up to date \(version: [[:digit:]]+, sigs: [[:digit:]]+, f-level: [[:digit:]]+, builder: neo\)
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: bytecode\.cvd updated \(version: [[:digit:]]+, sigs: [[:digit:]]+, f-level: [[:digit:]]+, builder: neo\)
