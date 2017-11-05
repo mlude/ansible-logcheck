@@ -3,6 +3,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Downloading daily\.cvd \[100%\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Downloading main\.cvd \[100%\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: OK \(IMS\)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: OK$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(bytecode\.cvd\): OK
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(daily\.cvd\): OK
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(main\.cvd\): OK
