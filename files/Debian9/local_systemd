@@ -1,5 +1,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [a-z]+\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server [.0-9]+:123 \([0-3]\.debian\.pool\.ntp\.org\)\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server \[[:0-9a-f]+\]:123 \([0-3]\.debian\.pool\.ntp\.org\)\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd: pam_unix\(systemd-user:session\): session closed for user [a-z]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd: pam_unix\(systemd-user:session\): session opened for user [a-z]+ by \(uid=0\)
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[1\]: Created slice User Slice of [a-z]+\.
