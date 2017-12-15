@@ -1,0 +1,12 @@
+---
+- name: ensure local_xxx filter files are installed (OpenBSD)
+  copy:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+    owner: root
+    group: "{{ logcheck_group }}"
+    mode: 0644
+  with_items:
+    - { src: 'OpenBSD/local_ansible', dest: '/etc/logcheck/ignore.d.server/local_ansible' }
+  when: ansible_distribution == "OpenBSD"
+

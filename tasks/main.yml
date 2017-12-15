@@ -1,7 +1,11 @@
 ---
-- name: ensure logcheck is installed
+- name: ensure logcheck is installed (Debian)
   apt: name=logcheck state=present
   when: ansible_distribution == "Debian"
+
+- name: ensure logcheck is installed (OpenBSD)
+  openbsd_pkg: name=logcheck state=present
+  when: ansible_distribution == "OpenBSD"
 
 - name: update logcheck.conf
   template:
@@ -18,4 +22,8 @@
 - include: debian9.yml
   static: yes
   when: ansible_distribution == "Debian" and ansible_distribution_major_version == "9"
+
+- include: openbsd.yml
+  static: yes
+  when: ansible_distribution == "OpenBSD"
 
