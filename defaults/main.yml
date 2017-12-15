@@ -1,4 +1,6 @@
 ---
+logcheck_group: "logcheck"
+
 logcheck_reportlevel: server
 logcheck_sendmailto: logcheck
 
