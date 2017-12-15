@@ -8,5 +8,6 @@
     mode: 0644
   with_items:
     - { src: 'OpenBSD/local_ansible', dest: '/etc/logcheck/ignore.d.server/local_ansible' }
+    - { src: 'OpenBSD/local_doas', dest: '/etc/logcheck/ignore.d.server/local_doas' }
   when: ansible_distribution == "OpenBSD"
 
