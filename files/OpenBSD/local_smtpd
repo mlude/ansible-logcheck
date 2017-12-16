@@ -1,0 +1,9 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=closed reason=quit messages=1
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=connected
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=connecting address=tls://[.[:digit:]]+:[[:digit:]]+ host=[.[:alnum:]]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=delivery evpid=[[:xdigit:]]+ from=<[_[:alnum:]]+@[.[:alnum:]]+> to=<[-[:alnum:]]+@[.[:alnum:]]+> rcpt=<-> source="[.[:digit:]]+" relay="[.[:digit:]]+ \([.[:alnum:]]+)" delay=[[:digit:]]s result="Ok" stat="250 2.0.0: [[:xdigit:]]+ Message accepted for delivery"
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=starttls ciphers=version=TLSv1\.2, cipher=ECDHE-RSA-CHACHA20-POLY1305, bits=256
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ smtp event=closed address=local host=[.[:alnum:]]+ reason=quit
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ smtp event=connected address=local host=[.[:alnum:]]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ smtp event=message address=local host=[.[:alnum:]]+ msgid=[[:xdigit:]]+ from=<[_[:alnum:]]+@[.[:alnum:]]+> to=<[-[:alnum:]]+@[.[:alnum:]]+> size=[[:digit:]]+ ndest=1 proto=ESMTP
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: smtp-out: Server certificate verification succeeded on session [[:xdigit:]]+
