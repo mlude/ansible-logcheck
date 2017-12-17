@@ -1,0 +1,2 @@
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjusting clock frequency by -?0\.[0-9]+ to -?0\.[0-9]+ppm
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjusting local clock by -?0\.[0-9]+s
