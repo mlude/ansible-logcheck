@@ -1,4 +1,4 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ doas: [[:alpha:]]+ ran command echo BECOME-SUCCESS-[[:alpha:]]+ as root from /home/[[:alpha:]]+
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ doas: [[:alpha:]]+ ran command egrep .* /var/log/[a-z]+ as root from /home/[[:alpha:]]+
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ doas: [[:alpha:]]+ ran command egrep .* /var/[/a-z]+ as root from /home/[[:alpha:]]+
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ doas: [[:alpha:]]+ ran command env ANSIBLE=true /usr/local/bin/python2\.7 as root from /home/[[:alpha:]]+
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ doas: root ran command
