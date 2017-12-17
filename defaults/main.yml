@@ -4,3 +4,10 @@ logcheck_group: "logcheck"
 logcheck_reportlevel: server
 logcheck_sendmailto: logcheck
 
+logcheck_filter_list_openbsd:
+  - local_ansible
+  - local_doas
+  - local_openntpd
+  - local_smtpd
+  - local_sshd
+
