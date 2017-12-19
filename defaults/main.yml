@@ -9,6 +9,7 @@ logcheck_filter_list_openbsd:
   - local_dhclient
   - local_doas
   - local_openntpd
+  - local_savecore
   - local_smtpd
   - local_sshd
 
