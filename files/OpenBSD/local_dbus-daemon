@@ -1,1 +1,1 @@
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[session uid=0 pid=[[:digit:]]+\] Reloaded configuration
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[session uid=[[:digit:]]+ pid=[[:digit:]]+\] Reloaded configuration
