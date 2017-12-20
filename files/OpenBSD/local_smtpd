@@ -1,4 +1,4 @@
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=closed reason=quit messages=1
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=closed reason=quit messages=[[:digit:]]
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=connected
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=connecting address=tls://[.[:digit:]]+:[[:digit:]]+ host=[.[:alnum:]]+
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=delivery evpid=[[:xdigit:]]+ from=<[_.@[:alnum:]]*> to=<[-[:alnum:]]+@[.[:alnum:]]+> rcpt=<[-.@[:alnum:]]+> source="[.[:digit:]]+" relay="[.[:digit:]]+ \([.[:alnum:]]+\)" delay=[[:digit:]]+(h[[:digit:]]+)?(m[[:digit:]]+)?s result="Ok" stat="250 2.0.0: [[:xdigit:]]+ Message accepted for delivery"
