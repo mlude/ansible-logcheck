@@ -3,3 +3,4 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhclient\[[[:digit:]]+\]: [[:alnum:]]+: DHCPOFFER from [.[:digit:]]+ \([:[:alnum:]]+\)
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhclient\[[[:digit:]]+\]: [[:alnum:]]+: DHCPREQUEST to 255.255.255.255
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhclient\[[[:digit:]]+\]: [[:alnum:]]+: bound to [.[:digit:]]+ -- renewal in [[:digit:]]+ seconds
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhclient\[[[:digit:]]+\]: [[:alnum:]]+: warning: hostname Speedport_W723_V_Typ_A_1_01_018 contains an underscore which violates RFC 952
