@@ -1,0 +1,7 @@
+# {{ ansible_managed }}
+
+# these files will be checked by logcheck
+# This has been tuned towards a default syslog install
+{% for logfile in logcheck_logfiles %}
+{{ logfile }}
+{% endfor %}

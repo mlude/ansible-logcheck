@@ -4,6 +4,10 @@ logcheck_group: "logcheck"
 logcheck_reportlevel: server
 logcheck_sendmailto: logcheck
 
+logcheck_logfiles:
+  - "/var/log/syslog"
+  - "/var/log/auth.log"
+
 logcheck_filter_list_openbsd:
   - local_ansible
   - local_dbus-daemon

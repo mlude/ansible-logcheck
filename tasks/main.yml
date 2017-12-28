@@ -15,6 +15,14 @@
     group: "{{ logcheck_group }}"
     mode: 0640
 
+- name: update logcheck.logfiles
+  template:
+    src: template/logcheck.logfiles.j2
+    dest: /etc/logcheck/logcheck.logfiles
+    owner: root
+    group: "{{ logcheck_group }}"
+    mode: 0640
+
 - include: debian8.yml
   static: yes
   when: ansible_distribution == "Debian" and ansible_distribution_major_version == "8"
