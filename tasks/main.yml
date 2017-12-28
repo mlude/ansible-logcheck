@@ -7,6 +7,12 @@
   openbsd_pkg: name=logcheck state=present
   when: ansible_distribution == "OpenBSD"
 
+- name: ensure logcheck user is in group for logfile access
+  user:
+    name: "{{ logcheck_user }}"
+    groups: "{{ logcheck_group_for_logfile_access }}"
+    append: yes
+
 - name: update logcheck.conf
   template:
     src: template/logcheck.conf.j2
