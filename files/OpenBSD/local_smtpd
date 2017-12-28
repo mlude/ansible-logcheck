@@ -1,4 +1,4 @@
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: 0000000000000000 mda event=delivery evpid=[[:xdigit:]]+ from=<[_[:alnum:]]+@[.[:alnum:]]+> to=<[-[:alnum:]]+@[.[:alnum:]]+> user=[[:alnum:]]+ method=mbox delay=0s result=Ok stat=Delivered
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: 0000000000000000 mda event=delivery evpid=[[:xdigit:]]+ from=<[-+_[:alnum:]]+@[.[:alnum:]]+> to=<[-[:alnum:]]+@[.[:alnum:]]+> user=[[:alnum:]]+ method=mbox delay=[[:digit:]]s result=Ok stat=Delivered
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=closed reason=quit messages=[[:digit:]]
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=connected
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]+ mta event=connecting address=tls://[.[:digit:]]+:[[:digit:]]+ host=[.[:alnum:]]+
