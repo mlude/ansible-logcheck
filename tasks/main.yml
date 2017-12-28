@@ -12,7 +12,7 @@
     src: template/logcheck.conf.j2
     dest: /etc/logcheck/logcheck.conf
     owner: root
-    group: "{{ logcheck_group }}"
+    group: "{{ logcheck_group_for_config }}"
     mode: 0640
 
 - name: update logcheck.logfiles
@@ -20,7 +20,7 @@
     src: template/logcheck.logfiles.j2
     dest: /etc/logcheck/logcheck.logfiles
     owner: root
-    group: "{{ logcheck_group }}"
+    group: "{{ logcheck_group_for_config }}"
     mode: 0640
 
 - include: debian8.yml

@@ -4,7 +4,7 @@
     src: "OpenBSD/{{ item }}"
     dest: "/etc/logcheck/ignore.d.server/{{ item }}"
     owner: root
-    group: "{{ logcheck_group }}"
+    group: "{{ logcheck_group_for_config }}"
     mode: 0644
   with_items: "{{ logcheck_filter_list_openbsd }}"
   when: ansible_distribution == "OpenBSD"
