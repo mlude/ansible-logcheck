@@ -12,6 +12,7 @@
     name: "{{ logcheck_user }}"
     groups: "{{ logcheck_group_for_logfile_access }}"
     append: yes
+    createhome: no
 
 - name: update logcheck.conf
   template:
