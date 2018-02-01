@@ -13,6 +13,7 @@ logcheck_logfiles:
 
 logcheck_filter_list_openbsd:
   - local_ansible
+  - local_apmd
   - local_dbus-daemon
   - local_dhclient
   - local_doas

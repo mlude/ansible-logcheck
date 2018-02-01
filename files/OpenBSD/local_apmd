@@ -1,0 +1,5 @@
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: battery status: (high|low)\. external power status: connected\. estimated battery life [0-9]+%$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: battery status: (high|low)\. external power status: not connected\. estimated battery life [0-9]+% \([0-9]+ minutes\)$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: setting hw.perfpolicy to (high|low)$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: system resumed from sleep$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: system suspending$
