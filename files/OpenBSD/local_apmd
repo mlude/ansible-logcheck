@@ -1,6 +1,6 @@
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: battery status: (high|low)\. external power status: connected\. estimated battery life [0-9]+%$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: battery status: (high|low)\. external power status: not connected\. estimated battery life [0-9]+% \([0-9]+ minutes\)$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: battery status: high\. external power status: not connected\. estimated battery life [0-9]+%$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: setting hw.perfpolicy to (high|low)$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: system resumed from sleep$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apmd: system suspending$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: (high|low)\. external power status: connected\. estimated battery life [[:digit:]]+%$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: (high|low)\. external power status: not connected\. estimated battery life [[:digit:]]+% \([[:digit:]]+ minutes\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: high\. external power status: not connected\. estimated battery life [[:digit:]]+%$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: setting hw.perfpolicy to (high|low)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: system resumed from sleep$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: system suspending$

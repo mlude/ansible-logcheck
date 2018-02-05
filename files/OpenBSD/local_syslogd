@@ -1,1 +1,1 @@
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ syslogd\[[[:digit:]]+\]: restart
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ syslogd\[[[:digit:]]+\]: restart
