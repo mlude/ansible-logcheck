@@ -1,1 +1,2 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dbus-daemon\[[[:digit:]]+\]: \[session uid=[[:digit:]]+ pid=[[:digit:]]+\] Reloaded configuration$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Reloaded configuration$
