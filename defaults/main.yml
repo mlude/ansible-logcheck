@@ -19,6 +19,7 @@ logcheck_filter_list_openbsd:
   - local_doas
   - local_newsyslog
   - local_openntpd
+  - local_polkit
   - local_savecore
   - local_smtpd
   - local_sshd
