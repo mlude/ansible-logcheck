@@ -1,12 +1,12 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading bytecode-[[:digit:]]+\.cdiff \[100%\]
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading bytecode\.cvd \[100%\]
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading daily\.cvd \[100%\]
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading main\.cvd \[100%\]
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: OK \(IMS\)
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading bytecode-[[:digit:]]+\.cdiff \[100%\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading bytecode\.cvd \[100%\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading daily\.cvd \[100%\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Downloading main\.cvd \[100%\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: OK \(IMS\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: OK$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(bytecode\.cvd\): OK
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(daily\.cvd\): OK
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(main\.cvd\): OK
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Trying again in 5 secs\.\.\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: bytecode\.c[lv]d is up to date \(version: [[:digit:]]+, sigs: [[:digit:]]+, f-level: [[:digit:]]+, builder: [[:alpha:]]+\)
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: bytecode\.c[lv]d updated \(version: [[:digit:]]+, sigs: [[:digit:]]+, f-level: [[:digit:]]+, builder: [[:alpha:]]+\)
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(bytecode\.cvd\): OK$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(daily\.cvd\): OK$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Reading CVD header \(main\.cvd\): OK$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: Trying again in 5 secs\.\.\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: bytecode\.c[lv]d is up to date \(version: [[:digit:]]+, sigs: [[:digit:]]+, f-level: [[:digit:]]+, builder: [[:alpha:]]+\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ freshclam\[[[:digit:]]+\]: bytecode\.c[lv]d updated \(version: [[:digit:]]+, sigs: [[:digit:]]+, f-level: [[:digit:]]+, builder: [[:alpha:]]+\)$

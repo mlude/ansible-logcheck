@@ -1,42 +1,42 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [a-z]+\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server [.0-9]+:123 \([0-3]\.debian\.pool\.ntp\.org\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server \[[:0-9a-f]+\]:123 \([0-3]\.debian\.pool\.ntp\.org\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session closed for user [a-z]+
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session opened for user [a-z]+ by \(uid=0\)
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Created slice User Slice of [a-z]+\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected architecture x86-64\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected virtualization qemu\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Mounted /run/shm\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Mounting /run/shm\.\.\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reached target Local File Systems \(Pre\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reached target Multi-User System\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reached target Network \(Pre\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reexecuting\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reloaded The Apache HTTP Server\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reloading The Apache HTTP Server\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Removed slice User Slice of [a-z]+\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started /etc/rc\.local Compatibility\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started LSB: modules\.dep creation\.\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started getty on tty2-tty6 if dbus and logind are not available\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Starting LSB: modules\.dep creation\.\.\.\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Starting getty on tty2-tty6 if dbus and logind are not available\.\.\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [.0-9]+s \(kernel\) \+ ([0-9]min )?[.0-9]+s \(userspace\) = ([0-9]min )?[.0-9]+s\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [0-9]min [.0-9]+s\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-a-z]+\.mount: Failed to set invocation ID on control group /system.slice/[-a-z]+\.mount, ignoring: Operation not permitted
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-a-z]+\.slice: Failed to set invocation ID on control group /[-/.a-z]+\.slice, ignoring: Operation not permitted
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily-upgrade\.timer: Adding [0-9]+min [.0-9]+ms random time\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily\.timer: Adding ([0-9]+h )?[0-9]+min [.0-9]+ms random time\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent \(access for web browsers\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent \(ssh-agent emulation\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache \(restricted\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(access for web browsers\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG network certificate management daemon\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \(kill\)\.
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Startup finished in [0-9]+ms\.
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [a-z]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server [.0-9]+:123 \([0-3]\.debian\.pool\.ntp\.org\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server \[[:0-9a-f]+\]:123 \([0-3]\.debian\.pool\.ntp\.org\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session closed for user [a-z]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session opened for user [a-z]+ by \(uid=0\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Created slice User Slice of [a-z]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected architecture x86-64\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected virtualization qemu\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Mounted /run/shm\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Mounting /run/shm\.\.\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reached target Local File Systems \(Pre\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reached target Multi-User System\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reached target Network \(Pre\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reexecuting\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reloaded The Apache HTTP Server\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reloading The Apache HTTP Server\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Removed slice User Slice of [a-z]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started /etc/rc\.local Compatibility\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started LSB: modules\.dep creation\.\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started getty on tty2-tty6 if dbus and logind are not available\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Starting LSB: modules\.dep creation\.\.\.\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Starting getty on tty2-tty6 if dbus and logind are not available\.\.\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [.0-9]+s \(kernel\) \+ ([0-9]min )?[.0-9]+s \(userspace\) = ([0-9]min )?[.0-9]+s\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [0-9]min [.0-9]+s\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-a-z]+\.mount: Failed to set invocation ID on control group /system.slice/[-a-z]+\.mount, ignoring: Operation not permitted$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-a-z]+\.slice: Failed to set invocation ID on control group /[-/.a-z]+\.slice, ignoring: Operation not permitted$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily-upgrade\.timer: Adding [0-9]+min [.0-9]+ms random time\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily\.timer: Adding ([0-9]+h )?[0-9]+min [.0-9]+ms random time\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent \(access for web browsers\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent \(ssh-agent emulation\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(access for web browsers\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG network certificate management daemon\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \(kill\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Startup finished in [0-9]+ms\.$
