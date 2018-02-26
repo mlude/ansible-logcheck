@@ -1,9 +1,9 @@
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjtime failed: Operation not permitted
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjusting clock frequency by -?0\.[0-9]+ to -?0\.[0-9]+ppm
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjusting local clock by -?0\.[0-9]+s
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: configuration OK
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: ntp_adjtime \(3\) failed: Operation not permitted
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: peer [.:0-9a-f]+ now invalid
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: peer [.:0-9a-f]+ now valid
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: reply from 129\.70\.132\.35: not synced \(alarm\), next query 3[0-9]+s
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: reset adjtime failed: Operation not permitted
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjtime failed: Operation not permitted
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjusting clock frequency by -?0\.[0-9]+ to -?0\.[0-9]+ppm
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjusting local clock by -?0\.[0-9]+s
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: configuration OK
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: ntp_adjtime \(3\) failed: Operation not permitted
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: peer [.:0-9a-f]+ now invalid
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: peer [.:0-9a-f]+ now valid
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: reply from 129\.70\.132\.35: not synced \(alarm\), next query 3[0-9]+s
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: reset adjtime failed: Operation not permitted
