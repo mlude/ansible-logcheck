@@ -4,7 +4,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection reset by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [.[:digit:]]+ port [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([-0-8a-z]*,ssh-connection\) -> \([-0-6a-z]+,ssh-connection) \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([-0-8a-z]*,ssh-connection\) -> \([-0-6a-z]+,ssh-connection\) \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([a-z]+,ssh-connection\) -> \([a-z]+,ssh-connect[a-z]* \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Too many authentication failures \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Failed password for invalid user  0101 from [.[:digit:]]+ port [[:digit:]]+ ssh2$
