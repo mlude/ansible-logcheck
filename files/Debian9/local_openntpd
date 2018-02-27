@@ -1,4 +1,4 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]: adjtime failed: Operation not permitted$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjtime failed: Operation not permitted$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjusting clock frequency by -?0\.[[:digit:]]+ to -?0\.[[:digit:]]+ppm$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjusting local clock by -?0\.[[:digit:]]+s$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: configuration OK$
