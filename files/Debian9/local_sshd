@@ -1,47 +1,47 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Accepted publickey for [a-z]+ from [.0-9]+ port [0-9]+ ssh2: ED25519 SHA256:$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET /[?;0-9a-z]* HTTP/1\.[01]' from [.0-9]+ port [0-9]+$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by [.0-9]+ port [0-9]+ \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection reset by [.0-9]+ port [0-9]+ \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [.0-9]+ port [0-9]+$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from [.0-9]+ port [0-9]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Accepted publickey for [a-z]+ from [.[:digit:]]+ port [[:digit:]]+ ssh2: ED25519 SHA256:$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET /[?;[:digit:]a-z]* HTTP/1\.[01]' from [.[:digit:]]+ port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection reset by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [.[:digit:]]+ port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([-0-8a-z]*,ssh-connection\) -> \([-0-6a-z]+,ssh-connection) \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([a-z]+,ssh-connection\) -> \([a-z]+,ssh-connect[a-z]* \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Too many authentication failures \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Failed password for invalid user  0101 from [.0-9]+ port [0-9]+ ssh2$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Failed password for invalid user  0101 from [.[:digit:]]+ port [[:digit:]]+ ssh2$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: PAM service\(sshd\) ignoring max retries; [4-6] > 3$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 108.61.200.72 port [0-9]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10\+deb9u1 vs\. SSH-1\.5-Nmap-SSH1-Hostkey$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 201.217.211.58 port [0-9]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10 vs\. SSH-1\.5-Nmap-SSH1-Hostkey$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 201.217.211.58 port [0-9]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10 vs\. SSH-1\.5-NmapNSE_1\.0$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for [.0-9]+ port [0-9]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10\+deb9u1 vs\. SSH-1\.5-NmapNSE_1\.0$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 141.105.69.248 port [0-9]+:11: PECL/ssh2 \(http://pecl\.php\.net/packages/ssh2\) \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 212.92.121.37 port [0-9]+:13: User request \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 58.218.213.65 port [0-9]+:11: disconnect \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11:  \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11: Bye Bye \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11: Closed due to user request\. \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11: Normal Shutdown \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11: Normal Shutdown, Thank you for playing \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11: disconnected by user \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:11: ok \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.0-9]+ port [0-9]+:3: java.net.SocketTimeoutException: Read timed out \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching cipher found. Their offer: aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching cipher found. Their offer: aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,arcfour128,arcfour,3des-cbc,none \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching host key type found. Their offer: ecdsa-sha2-nistp384 \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching host key type found. Their offer: ecdsa-sha2-nistp521 \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching host key type found. Their offer: ssh-dss \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.0-9]+ port [0-9]+: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1 \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 212.83.144.172 port [0-9]+:3: com.jcraft.jsch.JSchException: Auth cancel \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 62.210.106.72 port [0-9]+:14: No more user authentication methods available\. \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:13: User request \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:14: Unable to connect using the available authentication methods \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:3: com.jcraft.jsch.JSchException: timeout in waiting for rekeying process\. \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.0-9]+ port [0-9]+:3: java.net.SocketTimeoutException: Read timed out \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 108.61.200.72 port [[:digit:]]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10\+deb9u1 vs\. SSH-1\.5-Nmap-SSH1-Hostkey$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 201.217.211.58 port [[:digit:]]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10 vs\. SSH-1\.5-Nmap-SSH1-Hostkey$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for 201.217.211.58 port [[:digit:]]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10 vs\. SSH-1\.5-NmapNSE_1\.0$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Protocol major versions differ for [.[:digit:]]+ port [[:digit:]]+: SSH-2\.0-OpenSSH_7\.4p1 Debian-10\+deb9u1 vs\. SSH-1\.5-NmapNSE_1\.0$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 141.105.69.248 port [[:digit:]]+:11: PECL/ssh2 \(http://pecl\.php\.net/packages/ssh2\) \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 212.92.121.37 port [[:digit:]]+:13: User request \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 58.218.213.65 port [[:digit:]]+:11: disconnect \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11:  \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: Bye Bye \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: Closed due to user request\. \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: Normal Shutdown \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: Normal Shutdown, Thank you for playing \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: disconnected by user \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: ok \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: java.net.SocketTimeoutException: Read timed out \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching cipher found. Their offer: aes128-cbc,3des-cbc,aes256-cbc,aes192-cbc \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching cipher found. Their offer: aes256-cbc,rijndael-cbc@lysator.liu.se,aes192-cbc,aes128-cbc,arcfour128,arcfour,3des-cbc,none \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching host key type found. Their offer: ecdsa-sha2-nistp384 \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching host key type found. Their offer: ecdsa-sha2-nistp521 \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching host key type found. Their offer: ssh-dss \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1 \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 212.83.144.172 port [[:digit:]]+:3: com.jcraft.jsch.JSchException: Auth cancel \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 62.210.106.72 port [[:digit:]]+:14: No more user authentication methods available\. \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:13: User request \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:14: Unable to connect using the available authentication methods \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com.jcraft.jsch.JSchException: timeout in waiting for rekeying process\. \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: java.net.SocketTimeoutException: Read timed out \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: input_userauth_request: invalid user  0101 \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: invalid public DH value: <= 1 \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: packet_write_wait: Connection from [.0-9]+ port [0-9]+: Broken pipe \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 128.232.21.75 port [0-9]+: message authentication code incorrect \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 182.163.48.115 port [0-9]+: Broken pipe \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 58.218.204.213 port [0-9]+: incomplete message \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.0-9]+ port [0-9]+: DH GEX group out of range \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: packet_write_wait: Connection from [.[:digit:]]+ port [[:digit:]]+: Broken pipe \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 128.232.21.75 port [[:digit:]]+: message authentication code incorrect \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 182.163.48.115 port [[:digit:]]+: Broken pipe \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 58.218.204.213 port [[:digit:]]+: incomplete message \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.[:digit:]]+ port [[:digit:]]+: DH GEX group out of range \[preauth\]$
