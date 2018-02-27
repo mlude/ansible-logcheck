@@ -1,10 +1,10 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [a-z]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server [.0-9]+:123 \([0-3]\.debian\.pool\.ntp\.org\)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-timesyncd\[[[:digit:]]+\]: Synchronized to time server \[[:0-9a-f]+\]:123 \([0-3]\.debian\.pool\.ntp\.org\)\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session closed for user [a-z]+$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session opened for user [a-z]+ by \(uid=0\)$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Created slice User Slice of [a-z]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session closed for user [-._[:alnum:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session opened for user [-._[:alnum:]]+ by \(uid=0\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Created slice User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected architecture x86-64\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected virtualization qemu\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Mounted /run/shm\.$
@@ -15,7 +15,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reexecuting\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reloaded The Apache HTTP Server\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Reloading The Apache HTTP Server\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Removed slice User Slice of [a-z]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Removed slice User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started /etc/rc\.local Compatibility\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started LSB: modules\.dep creation\.\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started getty on tty2-tty6 if dbus and logind are not available\.$
