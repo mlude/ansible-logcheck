@@ -33,10 +33,10 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Started getty on tty2-tty6 if dbus and logind are not available\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Starting LSB: modules\.dep creation\.\.\.\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Starting getty on tty2-tty6 if dbus and logind are not available\.\.\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [.[:digit:]]+s \(kernel\) \+ ([[:digit:]]min )?[.[:digit:]]+s \(userspace\) = ([[:digit:]]min )?[.[:digit:]]+s\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [[:digit:]]min [.[:digit:]]+s\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [[:digit:]]\.[[:digit:]]+s \(kernel\) \+ ([[:digit:]]min )?[[:digit:]]\.[[:digit:]]+s \(userspace\) = ([[:digit:]]min )?[[:digit:]]\.[[:digit:]]+s\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Startup finished in [[:digit:]]min [[:digit:]]+\.[[:digit:]]+s\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-_@1-6a-z]+\.service: Failed to set invocation ID on control group /system.slice/[-/_.@1-6a-z]+\.service, ignoring: Operation not permitted$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-a-z]+\.mount: Failed to set invocation ID on control group /system.slice/[-a-z]+\.mount, ignoring: Operation not permitted$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: [-a-z]+\.slice: Failed to set invocation ID on control group /[-/.a-z]+\.slice, ignoring: Operation not permitted$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily-upgrade\.timer: Adding [[:digit:]]+min [.[:digit:]]+ms random time\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily\.timer: Adding ([[:digit:]]+h )?[[:digit:]]+min [.[:digit:]]+ms random time\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily-upgrade\.timer: Adding [[:digit:]]+min [[:digit:]]+\.[[:digit:]]+ms random time\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: apt-daily\.timer: Adding ([[:digit:]]+h )?[[:digit:]]+min [[:digit:]]+\.[[:digit:]]+ms random time\.$
