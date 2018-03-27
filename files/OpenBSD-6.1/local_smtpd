@@ -1,3 +1,5 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: 0000000000000000 mda event=delivery evpid=[[:xdigit:]]{16} from=<([-+=._[:alnum:]]+@[-.[:alnum:]]+)?> to=<[-+=._[:alnum:]]+@[-.[:alnum:]]+> user=[-._[:alnum:]]+ method=mbox delay=[[:digit:]]+s result=Ok stat=Delivered$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=closed address=(local|(IPv6:)?[.:[:xdigit:]]+) host=[-.[:alnum:]]+ reason=quit$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=connected address=(local|(IPv6:)?[.:[:xdigit:]]+) host=[-.[:alnum:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=message address=(local|(IPv6:)?[.:[:xdigit:]]+) host=[-.[:alnum:]]+ msgid=[[:xdigit:]]{8} from=<([-+=._[:alnum:]]+@[-.[:alnum:]]+)?> to=<[-+=._[:alnum:]]+@[-.[:alnum:]]+> size=[[:digit:]]+ ndest=1 proto=ESMTP$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: warn: smtpd: parent_forward_open: /nonexistent: No such file or directory$
