@@ -24,4 +24,5 @@ logcheck_filter_list_openbsd:
   - local_smtpd
   - local_sshd
   - local_syslogd
+  - local_xlock
 
