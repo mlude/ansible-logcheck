@@ -13,17 +13,17 @@ logcheck_logfiles:
 
 logcheck_filter_list_openbsd:
   - local_ansible
-  - local_apmd
   - local_bsd
-  - local_dbus-daemon
-  - local_dhclient
   - local_doas
   - local_newsyslog
   - local_openntpd
-  - local_polkit
   - local_savecore
   - local_smtpd
   - local_sshd
   - local_syslogd
+  - local_apmd
+  - local_dbus-daemon
+  - local_dhclient
+  - local_polkit
   - local_xlock
 
