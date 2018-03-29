@@ -1,4 +1,4 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0 at uhub[[:digit:]] port 1 configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/27\.20 addr 2$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0 at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/27\.20 addr 2$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0 detached$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0: iclass 3/1$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhub[[:digit:]] at usb[[:digit:]] configuration 1 interface 0 "Intel EHCI root hub" rev 2\.00/1\.00 addr 1$
