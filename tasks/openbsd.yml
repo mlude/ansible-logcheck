@@ -1,7 +1,7 @@
 ---
 - name: ensure common local_xxx filter files are installed (OpenBSD)
   copy:
-    src: "OpenBSD/{{ item }}"
+    src: "OpenBSD-{{ ansible_distribution_version }}/{{ item }}"
     dest: "/etc/logcheck/ignore.d.server/{{ item }}"
     owner: root
     group: "{{ logcheck_group_for_config }}"
@@ -11,7 +11,7 @@
 
 - name: ensure extra local_xxx filter files are installed (OpenBSD)
   copy:
-    src: "OpenBSD/{{ item }}"
+    src: "OpenBSD-{{ ansible_distribution_version }}/{{ item }}"
     dest: "/etc/logcheck/ignore.d.server/{{ item }}"
     owner: root
     group: "{{ logcheck_group_for_config }}"
