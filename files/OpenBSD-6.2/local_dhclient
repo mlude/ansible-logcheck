@@ -1,9 +1,9 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: DHCPACK from [.[:digit:]]+ \([:[:xdigit:]]+\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: DHCPACK from [.[:digit:]]+ \([:[:xdigit:]]+\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: DHCPREQUEST on [[:alpha:]]+[[:digit:]] to [.[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: DHCPACK from [.[:digit:]]+ \([:[:xdigit:]]+\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: DHCPDISCOVER - interval [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: DHCPOFFER from [.[:digit:]]+ \([:[:xdigit:]]+\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: DHCPREQUEST to 255\.255\.255\.255$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: DHCPREQUEST on [[:alpha:]]+[[:digit:]] to 255\.255\.255\.255$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: bound to [.[:digit:]]+ -- renewal in [[:digit:]]+ seconds$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: warning: hostname Speedport_Smart-FW_050129_2_5_023_0 contains an underscore which violates RFC 952$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: warning: hostname Speedport_W723_V_Typ_A_1_01_018 contains an underscore which violates RFC 952$
