@@ -1,0 +1,2 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjusting clock frequency by -?[[:digit:]]+\.[[:digit:]]+ to -?[[:digit:]]+\.[[:digit:]]+ppm$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ ntpd\[[[:digit:]]+\]: adjusting local clock by -?[0-2]\.[[:digit:]]+s$
