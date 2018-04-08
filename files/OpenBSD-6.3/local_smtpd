@@ -6,7 +6,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta event=starttls ciphers=version=TLSv1\.2, cipher=ECDHE-RSA-AES256-GCM-SHA384, bits=256$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=authentication user=[-._[:alnum:]]+ address=(IPv6:)?[.:[:xdigit:]]+ host=[-.[:alnum:]]+ result=ok$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=closed address=(local|(IPv6:)?[.:[:xdigit:]]+) host=[-.[:alnum:]]+ reason=quit$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=closed address=[.[:digit:]]+ host=[-.[:alnum:]]+ reason=disconnect$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=closed address=[.[:digit:]]+ host=[-.[:alnum:]]+ reason=(disconnect|timeout)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=connected address=(local|(IPv6:)?[.:[:xdigit:]]+) host=[-.[:alnum:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=failed-command address=37.49.224.211 host=37.49.224.211 command="AUTH LOGIN" result="503 5.5.1 Invalid command: Command not supported"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp event=message address=(local|(IPv6:)?[.:[:xdigit:]]+) host=[-.[:alnum:]]+ msgid=[[:xdigit:]]{8} from=<([-+=._[:alnum:]]+@[-.[:alnum:]]+)?> to=<[-+=._[:alnum:]]+@[-.[:alnum:]]+> size=[[:digit:]]+ ndest=1 proto=ESMTP$
