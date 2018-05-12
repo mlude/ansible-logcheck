@@ -31,7 +31,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching host key type found\. Their offer: ssh-dss \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching key exchange method found\. Their offer: diffie-hellman-group1-sha1 \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [.[:digit:]]+ port [[:digit:]]+: no matching key exchange method found\. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1 \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 212.83.144.172 port [[:digit:]]+:3: com\.jcraft\.jsch\.JSchException: Auth cancel \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com\.jcraft\.jsch\.JSchException: Auth cancel \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from 62.210.106.72 port [[:digit:]]+:14: No more user authentication methods available\. \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:13: User request \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:14: Unable to connect using the available authentication methods \[preauth\]$
