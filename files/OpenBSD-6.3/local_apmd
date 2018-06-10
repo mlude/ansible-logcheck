@@ -1,6 +1,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: (CRITICAL|high|low)\. external power status: connected\. estimated battery life [[:digit:]]+%$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: (CRITICAL|high|low)\. external power status: not connected\. estimated battery life [[:digit:]]+% \([[:digit:]]+ minutes\)$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: high\. external power status: not connected\. estimated battery life [[:digit:]]+%$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: battery status: (high|low)\. external power status: not connected\. estimated battery life [[:digit:]]+%$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: setting hw.perfpolicy to (high|low)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: system resumed from sleep$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ apmd: system suspending$
