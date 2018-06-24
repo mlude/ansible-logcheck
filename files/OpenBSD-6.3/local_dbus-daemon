@@ -5,3 +5,4 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Successfully activated service 'org\.freedesktop\.ConsoleKit'$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Successfully activated service 'org\.freedesktop\.PolicyKit1'$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Successfully activated service 'org\.freedesktop\.UPower'$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Reloaded configuration$
