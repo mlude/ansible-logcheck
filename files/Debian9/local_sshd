@@ -39,6 +39,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com\.jcraft\.jsch\.JSchException: Auth fail \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com\.jcraft\.jsch\.JSchException: timeout in waiting for rekeying process\. \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: java\.net\.SocketTimeoutException: Read timed out \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:7: Service not available \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:7: User interaction is not allowed \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: input_userauth_request: invalid user  0101 \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: invalid public DH value: <= 1 \[preauth\]$
