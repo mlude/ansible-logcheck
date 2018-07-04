@@ -6,7 +6,7 @@
     owner: root
     group: "{{ logcheck_group_for_config }}"
     mode: 0644
-  with_items: "{{ logcheck_filter_list_openbsd }}"
+  with_items: "{{ logcheck_filter_files }}"
   when: ansible_distribution == "OpenBSD"
 
 - name: ensure extra local_xxx filter files are installed (OpenBSD)
