@@ -5,3 +5,5 @@ logcheck_group_for_logfile_access: "adm"
 
 logcheck_group_for_config: "logcheck"
 
+logcheck_filter_files: []
+
