@@ -7,21 +7,5 @@ logcheck_logfiles:
   - "/var/log/syslog"
   - "/var/log/auth.log"
 
-logcheck_filter_list_openbsd:
-  - local_ansible
-  - local_bsd
-  - local_doas
-  - local_newsyslog
-  - local_openntpd
-  - local_savecore
-  - local_smtpd
-  - local_sshd
-  - local_syslogd
-
-logcheck_filter_list_openbsd_extra:
-  - local_apmd
-  - local_dbus-daemon
-  - local_dhclient
-  - local_polkit
-  - local_xlock
+logcheck_filter_list_openbsd_extra: []
 
