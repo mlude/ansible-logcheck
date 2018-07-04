@@ -7,5 +7,3 @@ logcheck_logfiles:
   - "/var/log/syslog"
   - "/var/log/auth.log"
 
-logcheck_filter_files_extra: []
-
