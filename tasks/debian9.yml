@@ -7,13 +7,6 @@
     group: "{{ logcheck_group_for_config }}"
     mode: 0644
   with_items:
-    - { src: 'Debian-9/local_ansible', dest: '/etc/logcheck/ignore.d.server/local_ansible' }
-    - { src: 'Debian-9/local_clamav', dest: '/etc/logcheck/ignore.d.server/local_clamav' }
-    - { src: 'Debian-9/local_dbus', dest: '/etc/logcheck/ignore.d.server/local_dbus' }
-    - { src: 'Debian-9/local_liblogging-stdlog', dest: '/etc/logcheck/ignore.d.server/local_liblogging-stdlog' }
-    - { src: 'Debian-9/local_openntpd', dest: '/etc/logcheck/ignore.d.server/local_openntpd' }
-    - { src: 'Debian-9/local_sshd', dest: '/etc/logcheck/ignore.d.server/local_sshd' }
-    - { src: 'Debian-9/local_systemd', dest: '/etc/logcheck/ignore.d.server/local_systemd' }
     - { src: "Debian-9/violations_local_postfix", dest: '/etc/logcheck/violations.d/local_postfix' }
   when: ansible_distribution == "Debian" and ansible_distribution_major_version == "9"
 
