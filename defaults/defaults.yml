@@ -1,0 +1,7 @@
+---
+
+logcheck_user: "logcheck"
+logcheck_group_for_logfile_access: "adm"
+
+logcheck_group_for_config: "logcheck"
+

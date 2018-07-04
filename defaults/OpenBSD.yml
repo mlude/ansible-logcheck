@@ -1,0 +1,7 @@
+---
+
+logcheck_user: "_logcheck"
+logcheck_group_for_logfile_access: "wheel"
+
+logcheck_group_for_config: "wheel"
+
