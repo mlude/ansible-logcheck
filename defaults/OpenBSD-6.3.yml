@@ -1,9 +1,0 @@
----
-
-logcheck_user: "_logcheck"
-logcheck_group_for_logfile_access: "wheel"
-
-logcheck_group_for_config: "wheel"
-
-logcheck_distribution_directory: "{{ ansible_distribution }}-{{ ansible_distribution_version }}"
-
