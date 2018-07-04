@@ -1,15 +1,5 @@
 ---
 
-- name: ensure common local_xxx filter files are installed (OpenBSD)
-  copy:
-    src: "{{ logcheck_distribution_directory }}/{{ item }}"
-    dest: "/etc/logcheck/ignore.d.server/{{ item }}"
-    owner: root
-    group: "{{ logcheck_group_for_config }}"
-    mode: 0644
-  with_items: "{{ logcheck_filter_files }}"
-  when: ansible_distribution == "OpenBSD"
-
 - name: ensure extra local_xxx filter files are installed (OpenBSD)
   copy:
     src: "{{ logcheck_distribution_directory }}/{{ item }}"
