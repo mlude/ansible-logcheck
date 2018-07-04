@@ -40,7 +40,7 @@
     group: "{{ logcheck_group_for_config }}"
     mode: 0640
 
-- name: ensure local_xxx pattern files are installed in ignore.d.* directory
+- name: install local_xxx pattern files in ignore.d.* directory
   copy:
     src: "{{ item }}"
     dest: "/etc/logcheck/ignore.d.server/{{ item | basename }}"
@@ -49,7 +49,7 @@
     mode: 0644
   with_fileglob: "{{ logcheck_distribution_directory }}/local*"
 
-- name: ensure local_xxx pattern files are installed in violations.d directory
+- name: install local_xxx pattern files in violations.d directory
   copy:
     src: "{{ item }}"
     dest: "/etc/logcheck/violations.d/{{ item | basename | regex_replace('^violations_', '') }}"
