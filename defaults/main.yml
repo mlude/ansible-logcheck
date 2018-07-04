@@ -7,5 +7,5 @@ logcheck_logfiles:
   - "/var/log/syslog"
   - "/var/log/auth.log"
 
-logcheck_filter_list_openbsd_extra: []
+logcheck_filter_files_extra: []
 

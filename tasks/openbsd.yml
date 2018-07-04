@@ -16,6 +16,6 @@
     owner: root
     group: "{{ logcheck_group_for_config }}"
     mode: 0644
-  with_items: "{{ logcheck_filter_list_openbsd_extra }}"
+  with_items: "{{ logcheck_filter_files_extra }}"
   when: ansible_distribution == "OpenBSD"
 
