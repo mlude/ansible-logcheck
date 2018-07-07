@@ -58,3 +58,10 @@
     mode: 0644
   with_fileglob: "{{ logcheck_distribution_directory }}/violations_local*"
 
+- name: ensure logcheck cron job is installed (OpenBSD)
+  cron:
+    name: "logcheck"
+    minute: "2"
+    job: "if [ -x /usr/local/bin/logcheck ]; then doas -u _logcheck nice -n10 /usr/local/bin/logcheck; fi"
+  when: ansible_distribution == "OpenBSD"
+
