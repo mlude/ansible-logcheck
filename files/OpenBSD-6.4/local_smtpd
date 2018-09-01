@@ -1,0 +1,1 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: smtp-out: Server certificate verification succeeded on session [[:xdigit:]]{16}$
