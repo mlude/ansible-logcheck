@@ -1,0 +1,2 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: [.[:digit:]]+ has already been blocked$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking [.[:digit:]]+ for [[:digit:]]+ secs \(4 attacks in [[:digit:]]+ secs, after [[:digit:]] abuses over [[:digit:]]+ secs\)$
