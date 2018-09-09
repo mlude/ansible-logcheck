@@ -1,9 +1,9 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Accepted publickey for [-._[:alnum:]]+ from [.[:digit:]]+ port [[:digit:]]+ ssh2: (ED25519|RSA) SHA256:[/+[:alnum:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET /[?;[:alnum:]]* HTTP/1\.[01]' from [.[:digit:]]+ port [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET /login.html HTTP/1.1' from [.[:digit:]]+ port [[:digit:]]+$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by [.:[:xdigit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection reset by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [.[:digit:]]+ port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [.:[:xdigit:]]+ port [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([-!0-8a-z]*,ssh-connection\) -> \([-!0-6Wa-z]+,ssh-connection\) \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting: Change of username or service not allowed: \([Aa-z]+,ssh-connection\) -> \([Aa-z]+,ssh-conn[a-z]* \[preauth\]$
