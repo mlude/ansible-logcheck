@@ -1,1 +1,2 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ postfix/smtp\[[[:digit:]]+\]: [[:xdigit:]]+: .*, status=bounced \(SMTPUTF8 is required, but was not offered by host$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ postfix/smtp\[[[:digit:]]+\]: [[:xdigit:]]+: .*, status=bounced \(host [-.[:alnum:]]+\[[.[:digit:]]+\] said: 554 5.4.6 Hop count exceeded - possible mail loop \(in reply to end of DATA command\)\)$
