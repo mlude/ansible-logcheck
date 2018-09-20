@@ -1,6 +1,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Acquired the name org\.freedesktop\.PolicyKit1 on the system bus$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Collecting garbage unconditionally\.\.\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Finished loading, compiling and executing 1 rules$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Finished loading, compiling and executing [[:digit:]] rules$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Loading rules from directory /etc/polkit-1/rules\.d$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Loading rules from directory /usr/local/share/polkit-1/rules\.d$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Reloading rules$
