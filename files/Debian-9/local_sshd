@@ -45,4 +45,4 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.[:digit:]]+ port [[:digit:]]+: Broken pipe \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.[:digit:]]+ port [[:digit:]]+: DH GEX group out of range \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.[:digit:]]+ port [[:digit:]]+: incomplete message \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from 128.232.21.75 port [[:digit:]]+: message authentication code incorrect \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.[:digit:]]+ port [[:digit:]]+: message authentication code incorrect \[preauth\]$
