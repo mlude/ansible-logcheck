@@ -26,7 +26,7 @@
 
 - name: update logcheck.conf
   template:
-    src: template/logcheck.conf.j2
+    src: templates/logcheck.conf.j2
     dest: /etc/logcheck/logcheck.conf
     owner: root
     group: "{{ logcheck_group_for_config }}"
@@ -34,7 +34,7 @@
 
 - name: update logcheck.logfiles
   template:
-    src: template/logcheck.logfiles.j2
+    src: templates/logcheck.logfiles.j2
     dest: /etc/logcheck/logcheck.logfiles
     owner: root
     group: "{{ logcheck_group_for_config }}"
