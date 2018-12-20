@@ -1,3 +1,6 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind: New session [[:digit:]]+ of user [-._[:alnum:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind: Removed session [[:digit:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Created slice User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Removed slice User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Started Session [[:digit:]]+ of user [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Starting Session [[:digit:]]+ of user [-._[:alnum:]]+\.$
