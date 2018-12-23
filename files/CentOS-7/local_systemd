@@ -2,7 +2,9 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind: Removed session [[:digit:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Created slice User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Removed slice User Slice of [-._[:alnum:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Started Cleanup of Temporary Directories\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Started Session [[:digit:]]+ of user [-._[:alnum:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Starting Cleanup of Temporary Directories\.\.\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Starting Session [[:digit:]]+ of user [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Starting User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: Stopping User Slice of [-._[:alnum:]]+\.$
