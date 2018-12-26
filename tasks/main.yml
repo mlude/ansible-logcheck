@@ -9,6 +9,10 @@
   tags: vars
 
 
+- name: ensure logcheck is installed (CentOS)
+  yum: name=logcheck state=present
+  when: ansible_distribution == "CentOS"
+
 - name: ensure logcheck is installed (Debian)
   apt: name=logcheck state=present
   when: ansible_distribution == "Debian"
