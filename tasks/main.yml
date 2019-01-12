@@ -15,7 +15,7 @@
 
 - name: ensure logcheck is installed (Debian)
   apt: name=logcheck state=present
-  when: ansible_distribution == "Debian"
+  when: ansible_distribution_file_variety == "Debian"
 
 - name: ensure logcheck is installed (OpenBSD)
   openbsd_pkg: name=logcheck state=present
