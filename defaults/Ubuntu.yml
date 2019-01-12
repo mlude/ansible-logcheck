@@ -1,0 +1,9 @@
+---
+
+logcheck_user: "logcheck"
+logcheck_group_for_logfile_access: "adm"
+
+logcheck_group_for_config: "logcheck"
+
+logcheck_distribution_directory: "{{ ansible_distribution }}-{{ ansible_distribution_version }}"
+
