@@ -9,17 +9,17 @@
   tags: vars
 
 
-- name: ensure logcheck is installed (CentOS)
+- name: ensure logcheck is installed (yum)
   yum: name=logcheck state=present
-  when: ansible_distribution == "CentOS"
+  when: ansible_pkg_mgr == "yum"
 
-- name: ensure logcheck is installed (Debian)
+- name: ensure logcheck is installed (apt)
   apt: name=logcheck state=present
-  when: ansible_distribution_file_variety == "Debian"
+  when: ansible_pkg_mgr == "apt"
 
-- name: ensure logcheck is installed (OpenBSD)
+- name: ensure logcheck is installed (openbsd_pkg)
   openbsd_pkg: name=logcheck state=present
-  when: ansible_distribution == "OpenBSD"
+  when: ansible_pkg_mgr == "openbsd_pkg"
 
 - name: ensure logcheck user is in group for logfile access
   user:
