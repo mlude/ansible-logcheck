@@ -66,6 +66,6 @@
   cron:
     name: "logcheck"
     minute: "2"
-    job: "if [ -x /usr/local/bin/logcheck ]; then doas -u _logcheck nice -n10 /usr/local/bin/logcheck; fi"
+    job: "if [ -x /usr/local/bin/logcheck ]; then doas -u {{ logcheck_user }} nice -n10 /usr/local/bin/logcheck; fi"
   when: ansible_distribution == "OpenBSD"
 
