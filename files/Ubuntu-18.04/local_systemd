@@ -1,5 +1,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd-resolved\[[[:digit:]]+\]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd: pam_unix\(systemd-user:session\): session opened for user [-._[:alnum:]]+ by \(uid=0\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache \(access for web browsers\)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(access for web browsers\)\.$
