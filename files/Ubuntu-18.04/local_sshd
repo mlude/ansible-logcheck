@@ -1,4 +1,4 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET / HTTP/1\.1' from 185.255.31.2 port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET / HTTP/1\.1' from [.[:digit:]]+ port [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET /login\.html HTTP/1\.1' from [.[:digit:]]+ port [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by [.:[:xdigit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by authenticating user [-._[:alnum:]]+ [.:[:xdigit:]]+ port [[:digit:]]+ \[preauth\]$
