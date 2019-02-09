@@ -1,4 +1,4 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking [.[:digit:]]+:4 for >0secs: [4-6]0 danger in [2-4] attacks over [[:digit:]]+ seconds \(all: 1[2356]0d in [23] abuses over [[:digit:]]+s\)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking [.[:digit:]]+:4 for >0secs: [4-6]0 danger in [2-4] attacks over [[:digit:]]+ seconds \(all: 1[235-7]0d in [23] abuses over [[:digit:]]+s\)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking [.[:digit:]]+:4 for >630secs: [4-6]0 danger in [1-4] attacks over [[:digit:]]+ seconds \(all: [4-6]0d in 1 abuses over [[:digit:]]+s\)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking [.[:digit:]]+:4 for >945secs: [4-68]0 danger in [1-4] attacks over [[:digit:]]+ seconds \(all: ([89]|1[01])0d in 2 abuses over [[:digit:]]+s\)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Source '/var/log/authlog' reappeared\. Reloading\.$
