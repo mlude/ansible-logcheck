@@ -1,0 +1,2 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ doas: [[:alpha:]]+ ran command /bin/sh -c echo BECOME-SUCCESS-[[:alpha:]]+; /usr/local/bin/python2.7 as root from /home/[[:alpha:]]+
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ doas: root ran command
