@@ -2,6 +2,7 @@
 
 logcheck_reportlevel: server
 logcheck_sendmailto: logcheck
+logcheck_mimeencoding: ""
 
 logcheck_logfiles:
   - "/var/log/syslog"
