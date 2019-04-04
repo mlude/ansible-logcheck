@@ -1,0 +1,17 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET / HTTP/1\.1' from [.[:digit:]]+ port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET /login\.html HTTP/1\.1' from [.[:digit:]]+ port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by authenticating user root [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection closed by invalid user [-._[:alnum:]]* [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection reset by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from authenticating user [-._[:alnum:]]+ [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from invalid user [-._[:alnum:]]+ [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from user [-._[:alnum:]]+ [.[:digit:]]+ port [[:digit:]]+$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting invalid user !?[-._[:alnum:]]* [.[:digit:]]+ port [[:digit:]]+: Change of username or service not allowed: \(!?[-._[:alnum:]]*,ssh-connection\) -> \(!?[-._[:alnum:]]*,ssh-connection\) \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting invalid user [-._[:alnum:]]+ [.[:digit:]]+ port [[:digit:]]+: Change of username or service not allowed: \([-._[:alnum:]]+,ssh-connection\) -> \([-._[:alnum:]]+,ssh-conn[a-z]* \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: PAM service\(sshd\) ignoring max retries; [4-6] > 3$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11:  \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: Bye Bye \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from 88.99.144.228 port [[:digit:]]+:11: Normal Shutdown \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11: Normal Shutdown, Thank you for playing \[preauth\]$
