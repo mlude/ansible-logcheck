@@ -1,0 +1,1 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ rsyslogd:  \[origin software="rsyslogd" swVersion="8\.1901\.0" x-pid="[[:digit:]]+" x-info="https://www\.rsyslog\.com"\] rsyslogd was HUPed$
