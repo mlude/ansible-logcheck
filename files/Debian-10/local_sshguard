@@ -1,6 +1,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Attack from "[.:[:xdigit:]]+" on service 1[01]0 with danger (2|10)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.:[:xdigit:]]+/(32|128)" for 120 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 1 abuses over [[:digit:]]+ secs\.\)$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 240 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 2 abuses over [[:digit:]]+ secs\.\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.:[:xdigit:]]+/(32|128)" for 240 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 2 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 480 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 3 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 960 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 4 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 1920 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 5 abuses over [[:digit:]]+ secs\.\)$
