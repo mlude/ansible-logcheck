@@ -1,4 +1,6 @@
 ---
+# tasks file for logcheck
+
 - name: gather os specific variables
   include_vars: "{{ item }}"
   with_first_found:
@@ -43,6 +45,16 @@
     owner: root
     group: "{{ logcheck_group_for_config }}"
     mode: 0640
+
+- name: install local_xxx pattern files in ignore.d.* directory (OpenBSD)
+  copy:
+    src: "{{ item }}"
+    dest: "/etc/logcheck/ignore.d.server/{{ item | basename }}"
+    owner: root
+    group: "{{ logcheck_group_for_config }}"
+    mode: 0644
+  with_fileglob: "OpenBSD/local*"
+  when: ansible_distribution == "OpenBSD"
 
 - name: install local_xxx pattern files in ignore.d.* directory
   copy:
