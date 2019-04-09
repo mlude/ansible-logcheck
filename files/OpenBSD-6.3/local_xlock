@@ -1,3 +1,0 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ xlock\[[[:digit:]]+\]: Start: [-._[:alnum:]]+, [-._[:alnum:]]+, :0$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ xlock\[[[:digit:]]+\]: Stop: [-._[:alnum:]]+, [-._[:alnum:]]+, :0, [[:digit:]]+m [[:digit:]]+s$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ xlock\[[[:digit:]]+\]: xlock: root unlocked screen$
