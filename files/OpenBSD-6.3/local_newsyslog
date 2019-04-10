@@ -1,1 +1,0 @@
-^[-[:digit:]]{10}T[:[:digit:]]{8}\.[[:digit:]]{3}Z [-[:alnum:]]+ newsyslog\[[[:digit:]]+\]: logfile turned over$
