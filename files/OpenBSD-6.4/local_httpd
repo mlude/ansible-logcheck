@@ -1,2 +1,0 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ httpd\[[[:digit:]]+\]: parent_sig_handler: reload requested with SIGHUP$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ httpd\[[[:digit:]]+\]: parent_sig_handler: reopen requested with SIGUSR1$
