@@ -1,2 +1,0 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev1 at uhub3 port 2 configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/20\.00 addr 3$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhub[[:digit:]] at usb[[:digit:]] configuration 1 interface 0 "Intel UHCI root hub" rev 1\.00/1\.00 addr 1$
