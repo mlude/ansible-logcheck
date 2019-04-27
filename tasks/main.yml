@@ -74,6 +74,19 @@
     mode: 0644
   with_fileglob: "{{ logcheck_distribution_directory }}/violations_local*"
 
+- name: find empty local_xxx pattern files
+  find:
+    paths: "/etc/logcheck/ignore.d.server"
+    patterns: "local*"
+    size: "-1"
+  register: empty_pattern_files
+
+- name: remove empty local_xxx pattern files
+  file:
+    path: "{{ item.path }}"
+    state: absent
+  with_items: "{{  empty_pattern_files.files }}"
+
 - name: ensure logcheck cron job is installed (OpenBSD)
   cron:
     name: "logcheck"
