@@ -1,11 +1,19 @@
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0 at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/27\.20 addr 2$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0 detached$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev0: iclass 3/[01]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev1 at uhub[[:digit:]] port 2 configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/20\.00 addr 3$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhub[[:digit:]] at usb[[:digit:]] configuration 1 interface 0 "Intel EHCI root hub" rev 2\.00/1\.00 addr 1$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhub[[:digit:]] at usb[[:digit:]] configuration 1 interface 0 "Intel UHCI root hub" rev 1\.00/1\.00 addr 1$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhub[[:digit:]] detached$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: ums0 at uhidev0: 8 buttons, Z and W dir$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: ums0 detached$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: wsmouse[[:digit:]] at ums0 mux 0$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: wsmouse2 detached$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: scsibus[[:digit:]] at umass[[:digit:]]: 2 targets, initiator 0$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: scsibus[[:digit:]] detached$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]+ at scsibus[[:digit:]] targ 1 lun [[:digit:]]: <Generic, STORAGE DEVICE, 9744> SCSI0 0/direct removable$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]] at scsibus[[:digit:]] targ 1 lun 0: <TOSHIBA, External USB 3\.0, 5438> SCSI4 0/direct fixed serial\.0480090080531001444F$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]+ detached$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]: 953869MB, 512 bytes/sector, 1953525164 sectors$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]] at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/20\.00 addr [[:digit:]]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]] at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/27\.20 addr [[:digit:]]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]] detached$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]]: iclass 3/1$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: umass[[:digit:]] at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Genesys Logic USB Storage" rev 2\.00/97\.44 addr [[:digit:]]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: umass[[:digit:]] at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "TOSHIBA External USB 3\.0" rev 2\.10/3\.15 addr [[:digit:]]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: umass[[:digit:]] detached$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: umass[[:digit:]]: using SCSI over Bulk-Only$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: ums[[:digit:]] at uhidev[[:digit:]]: 3 buttons, Z dir$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: ums[[:digit:]] at uhidev[[:digit:]]: 8 buttons, Z and W dir$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: ums[[:digit:]] detached$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: wsmouse[[:digit:]] at ums[[:digit:]] mux 0$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: wsmouse[[:digit:]] detached$
