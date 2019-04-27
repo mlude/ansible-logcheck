@@ -1,4 +1,5 @@
 ---
+# defaults file for logcheck
 
 logcheck_reportlevel: server
 logcheck_sendmailto: logcheck
