@@ -5,10 +5,12 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta disconnected reason=quit messages=1$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta tls ciphers=TLSv1\.2:ECDHE-RSA-AES256-GCM-SHA384:256$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp authentication user=[-._[:alnum:]]+ result=ok$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp bad-input result="500 5.5.1 Invalid command: Pipelining not supported"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp connected address=(local|(IPv6:)?[.:[:xdigit:]]+) host=([-.[:alnum:]]+|<unknown>)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp disconnected reason="io-error: Connection reset by peer"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp disconnected reason=disconnect$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp disconnected reason=quit$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp disconnected reason=timeout$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp envelope evpid=[[:xdigit:]]{16} from=<[-+=._[:alnum:]]+@[-.[:alnum:]]+> to=<[-+=._[:alnum:]]+@[-.[:alnum:]]+>$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp failed-command command="AUTH LOGIN" result="503 5.5.1 Invalid command: Command not supported"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp message msgid=[[:xdigit:]]{8,13} size=[[:digit:]]+ nrcpt=1 proto=ESMTP$
