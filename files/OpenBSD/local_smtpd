@@ -15,4 +15,5 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp failed-command command="AUTH LOGIN" result="503 5.5.1 Invalid command: Command not supported"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp message msgid=[[:xdigit:]]{8,13} size=[[:digit:]]+ nrcpt=1 proto=ESMTP$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp tls ciphers=TLSv1\.2:ECDHE-RSA-AES256-GCM-SHA384:256$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp tls ciphers=TLSv1\.2:ECDHE-RSA-AES256-SHA:256$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: smtp-out: Server certificate verification succeeded on session [[:xdigit:]]{16}$
