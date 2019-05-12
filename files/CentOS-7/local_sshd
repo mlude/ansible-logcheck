@@ -25,4 +25,5 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com\.jcraft\.jsch\.JSchException: Auth fail \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:3: com\.jcraft\.jsch\.JSchException: verify: false \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:7: Service not available \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: packet_write_wait: Connection from [.[:digit:]]+ port [[:digit:]]+: Broken pipe \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: ssh_dispatch_run_fatal: Connection from [.[:digit:]]+ port [[:digit:]]+: message authentication code incorrect \[preauth\]$
