@@ -5,7 +5,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    - https://blog\.ubuntu\.com/2018/12/10/using-gpgpus-with-kubernetes$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    One quick install on a workstation, VM, or appliance\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    Try 'snap info microk8s' for all the latest goodness\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    directly, see https://bit.ly/ubuntu-containerd or try it now with$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    directly, see https://bit\.ly/ubuntu-containerd or try it now with$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    than 14 different distros\. Guess which ones\?$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* 'snap info' now shows the freshness of each channel\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* Full K8s GPU support is now available!$
