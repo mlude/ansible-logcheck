@@ -1,3 +1,4 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:      https://github\.com/ubuntu/microk8s$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:      https://snapcraft\.io/microk8s$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:      snap install microk8s --channel=1\.14/beta --classic$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:      snap install microk8s --classic$
@@ -6,9 +7,11 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    One quick install on a workstation, VM, or appliance\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    Try 'snap info microk8s' for all the latest goodness\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    directly, see https://bit\.ly/ubuntu-containerd or try it now with$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    greatest upstream Kubernetes in a single package\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:    than 14 different distros\. Guess which ones\?$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* 'snap info' now shows the freshness of each channel\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* Full K8s GPU support is now available!$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* MicroK8s 1\.15 is out! It has already been installed on more$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* MicroK8s 1\.15 is out! Thanks to all 40 contributors, you get the latest$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* MicroK8s is Kubernetes in a snap\. Made by devs for devs\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ 50-motd-news\[[[:digit:]]+\]:  \* Ubuntu's Kubernetes 1\.14 distributions can bypass Docker and use containerd$
