@@ -4,4 +4,4 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Loading rules from directory /etc/polkit-1/rules\.d$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Loading rules from directory /usr/local/share/polkit-1/rules\.d$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Reloading rules$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Started polkitd version 0\.115$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ polkitd\[[[:digit:]]+\]: Started polkitd version [[:digit:]]+\.[[:digit:]]+$
