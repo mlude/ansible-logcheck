@@ -64,6 +64,7 @@
     group: "{{ logcheck_group_for_config }}"
     mode: 0644
   with_fileglob: "{{ logcheck_distribution_directory }}/local*"
+  when: ansible_distribution != "OpenBSD"
 
 - name: install local_xxx pattern files in violations.d directory
   copy:
