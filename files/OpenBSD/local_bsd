@@ -1,9 +1,9 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: scsibus[[:digit:]] at umass[[:digit:]]: 2 targets, initiator 0$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: scsibus[[:digit:]] detached$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]+ at scsibus[[:digit:]] targ 1 lun [[:digit:]]: <Generic, STORAGE DEVICE, 9744> SCSI0 0/direct removable$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]] at scsibus[[:digit:]] targ 1 lun 0: <TOSHIBA, External USB 3\.0, 5438> SCSI4 0/direct fixed serial\.0480090080531001444F$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]+ detached$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]: 953869MB, 512 bytes/sector, 1953525164 sectors$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]+ at scsibus[[:digit:]] targ 1 lun [[:digit:]]: <Generic, STORAGE DEVICE, 9744> SCSI0 0/direct removable$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: sd[[:digit:]]+ detached$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]] at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/20\.00 addr [[:digit:]]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]] at uhub[[:digit:]] port [[:digit:]] configuration 1 interface 0 "Logitech USB-PS/2 Optical Mouse" rev 2\.00/27\.20 addr [[:digit:]]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ /bsd: uhidev[[:digit:]] detached$
