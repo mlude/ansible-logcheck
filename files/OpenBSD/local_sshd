@@ -5,7 +5,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Connection reset by [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from authenticating user [-._[:alnum:]]+ [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from invalid user [- ~!#$%&\(\)*+.;<>?@\^_[:alnum:]]* [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from invalid user [- ~!"#$%&\(\)*+,.;<=>?@\^_`}[:alnum:]]* [.[:digit:]]+ port [[:digit:]]+ \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnected from user [-._[:alnum:]]+ [.:[:xdigit:]]+ port [[:digit:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Disconnecting invalid user [-._[:alnum:]]+ [.[:digit:]]+ port [[:digit:]]+: Change of username or service not allowed: \([-._[:alnum:]]+,ssh-connection\) -> \([-._[:alnum:]]+,ssh-connection\) \[preauth\]$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshd\[[[:digit:]]+\]: Received disconnect from [.[:digit:]]+ port [[:digit:]]+:11:  \[preauth\]$
