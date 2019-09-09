@@ -16,6 +16,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Listening on GnuPG network certificate management daemon\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \(kill\)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Startup finished in [[:digit:]]+ms\.$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[[[:digit:]]+\]: Startup finished in [[:digit:]]+\.[[:digit:]]+s\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Created slice User Slice of [-._[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected architecture x86-64\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: Detected virtualization qemu\.$
