@@ -3,6 +3,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta connecting address=smtp\+tls://[.[:digit:]]+:587 host=[-.[:alnum:]]+$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta delivery evpid=[[:xdigit:]]{16} from=<[-+=._[:alnum:]]+@[-.[:alnum:]]+> to=<[-+=._[:alnum:]]+@[-.[:alnum:]]+> rcpt=<(-|[-+=._[:alnum:]]+@[-.[:alnum:]]+)> source="[.[:digit:]]+" relay="[.[:digit:]]+ \([-.[:alnum:]]+\)" delay=[[:digit:]]s result="Ok" stat="250 2\.0\.0: [[:xdigit:]]{8,13} Message accepted for delivery"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta disconnected reason=quit messages=[[:digit:]]$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta server-cert-check result="success"$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} mta tls ciphers=TLSv1\.2:ECDHE-RSA-AES256-GCM-SHA384:256$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp authentication user=[-._[:alnum:]]+ result=ok$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ smtpd\[[[:digit:]]+\]: [[:xdigit:]]{16} smtp bad-input result="500 5.5.1 Invalid command: Pipelining not supported"$
