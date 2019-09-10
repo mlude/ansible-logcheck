@@ -22,7 +22,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: logrotate\.service: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: lvm2-lvmpolld\.socket: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: man-db\.service: Succeeded\.$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: run-user-[[:digit:]]+\.mount: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: session-[[:digit:]]+\.scope: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: systemd-tmpfiles-clean\.service: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ systemd\[1\]: user@[[:digit:]]+\.service: Succeeded\.$
