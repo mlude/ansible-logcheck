@@ -10,8 +10,8 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.:[:xdigit:]]+/(32|128)" for 30720 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 9 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 61440 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 10 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 122880 secs \([[:digit:]]+ attacks in [[:digit:]]+ secs, after 11 abuses over [[:digit:]]+ secs\.\)$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 245760 secs \([34] attacks in [[:digit:]] secs, after 12 abuses over [[:digit:]]+ secs\.\)$
-^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 491520 secs \([34] attacks in [[:digit:]] secs, after 13 abuses over [[:digit:]]+ secs\.\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 245760 secs \([34] attacks in [[:digit:]]+ secs, after 12 abuses over [[:digit:]]+ secs\.\)$
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 491520 secs \([34] attacks in [[:digit:]]+ secs, after 13 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 983040 secs \([34] attacks in 1 secs, after 14 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 1966080 secs \([34] attacks in [[:digit:]] secs, after 15 abuses over [[:digit:]]+ secs\.\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ sshguard\[[[:digit:]]+\]: Blocking "[.[:digit:]]+/32" for 3932160 secs \(3 attacks in 1 secs, after 16 abuses over [[:digit:]]+ secs\.\)$
