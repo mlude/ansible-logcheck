@@ -1,1 +1,2 @@
+^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: [.[:digit:]]+ lease accepted from [.[:digit:]]+ \([:[:xdigit:]]+\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{2} [:[:digit:]]{8} [-[:alnum:]]+ dhclient\[[[:digit:]]+\]: [[:alpha:]]+[[:digit:]]: bound to [.[:digit:]]+ from [.[:digit:]]+ \([:[:xdigit:]]+\)$
